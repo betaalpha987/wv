@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weave Code: Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+    <div class="page-holder">
+        <nav class="navbar navbar-toggleable-md fixed-top navbar-light justify-content-between">
+            <button class="navbar-toggler navbar-toggler-right align-self-center my-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-column ml-lg-0 ml-3" id="navbarCollapse">
+                <div class="flex-column">
+                    <a class="logo" href="#"><img src="images/logo.png" width="250px"></a>
+                    <form class="search-form form-inline">
+                        <input class="form-control" type="text" placeholder="Search">
+                        <button class="btn btn-link" type="submit"><img src="images/search.png" width= "20px"></button>
+                    </form>
+                    <a class="float-right login-profile" href="#"><img src="images/settings.png" width="20"/> Logged in: John Smith</a><br>
+                </div>
+                <div>
+                    <ul class="nb-bottom flex-container navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Case Studies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Customers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="container-fluid">    
+            <div class="row content">
+                <div class="col-sm-12 top-banner">
+                    <div class="banner-panel">
+                        <p>For more information...<br>
+                        <span class="large">Contact Us</span></p>
+                    </div>               
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-sm-12 text-center"> 
+                    <h2>Send us details to request our latest brochure</h2>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-sm-4">
+                    <div id="map" class="content-panel text-center">
+                    </div>
+                </div>
+                <div class="col-sm-8 cont-panel-holder">
+                    <div class="content-panel content-form" id="content-form">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="firstname">First Name:</label>
+                                <input type="text" required class="form-control" id="firstname">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required title="Please enter a valid email address" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastname">Last Name:</label>
+                                <input type="text" required class="form-control" id="lastname">
+                            </div>
+                            <div class="form-group">
+                                <label for="emailconfirm">Confirm Email:</label>
+                                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required class="form-control" id="emailconfirm">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="day-input">Day:</label>
+                                <input class="col-sm-3 form-control" type="day" value="08" id="day-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="month-input">Month:</label>
+                                <input class="col-sm-3 form-control" type="month" value="January" id="month-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="year-input">Year:</label>
+                                <input class="col-sm-3 form-control" type="year" value="2017" id="year-input">
+                            </div>
+                            <button type="submit" class="butt-green">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-sm-4 cont-panel-holder">
+                    <div class="content-panel content-feedback text-center"> 
+                        <p>Start a chat with one of our tech team</p>
+                        <button class="butt-orange align-bottom" id="livechat">
+                            Start <img src="images/button-icon-livechat.png">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 cont-panel-holder">
+                    <div class="content-panel content-feedback text-center"> 
+                        <p>Start a Skype call with one of our Sales team</p>
+                        <button class="butt-orange">
+                            <a onclick="Skype.tryAnalyzeSkypeUri('call', '0');" href="skype:myskypename?call">
+                                Start <img src="images/button-icon-skype.png">
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-4 cont-panel-holder">
+                    <div class="content-panel content-feedback text-center"> 
+                        <p>Start an email to our customer services team</p>
+                        <button class="butt-orange" onClick="window.location.href='mailto:betaalpha@yahoo.com';">
+                            Send <img src="images/button-icon-email.png">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col-sm-12 bottom-banner">
+                    <div class="banner-panel">
+                        <p>We will be in touch<br>
+                        <span class="large">Thank you</span></p>
+                    </div>               
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-content container-fluid text-center">
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Copyright Weave Code 2016</a>
+        <hr>
+    </footer>
+
+<script>
+
+// Google Map
+function myMap() {
+  var myCenter = new google.maps.LatLng(53.5991716,-2.2956169);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 15};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+    // Zoom to 9 when clicking on marker
+  google.maps.event.addListener(marker,'click',function() {
+    window.location.href ="https://goo.gl/maps/aHL4QqTCMTH2";
+  });
+}
+
+// Livechat
+$("#livechat").click(function(event) {
+    window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+    d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+    _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+    $.src="https://v2.zopim.com/?4pbh9Q8tstxzExlBLdr4SVWoH5IiAiBS";z.t=+new Date;$.
+    type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+});
+
+// Form verification
+$( "#content-form" ).submit(function( event ) {
+    console.log($("#email").val())
+    if ($("#email").val() !== $("#emailconfirm").val()) alert("'Email' and 'Confirm Email' are not the same. Please check.");
+    else {
+        $("#content-form").submit();
+    }
+    event.preventDefault();
+});
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAn1sixtxQqeFDnmHyQp9o7AzqhweN6BcA&callback=myMap"></script>
+
+</body>
+</html>
